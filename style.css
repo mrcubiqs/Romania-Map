@@ -308,3 +308,65 @@ svg { width: 100%; height: auto; }
   .text-container { padding: 16px 12px; }
   .staff-item { flex-direction: column; align-items: flex-start; }
 }
+
+/* All Regions Container */
+#all-regions {
+  background: #CCCCCC;
+  min-height: 320px;
+  padding: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.left-image {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.info-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.info-line .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.bottom-part {
+  width: 100%;
+}
+
+.random-text {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
