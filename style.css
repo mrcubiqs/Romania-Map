@@ -223,16 +223,21 @@ select {
   -moz-appearance: none;
   appearance: none;
   cursor: pointer;
-  background-image: url(data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>);
   background-repeat: no-repeat;
-  background-position: right 4px center;
-  background-size: 24px;
+  background-position: right 8px center;
+  background-size: 20px;
+  padding-right: 40px;
+}
+
+/* Custom dropdown arrow using a triangle shape */
+select {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" fill="white"/></svg>');
 }
 
 select:hover {
   background-color: #e0f0fe;
   color: #104371;
-  background-image: url(data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill=%230469C3><path d="M7 10l5 5 5-5z"/></svg>);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" fill="%230469C3"/></svg>');
 }
 
 select:focus { outline: none; }
